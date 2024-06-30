@@ -3,7 +3,7 @@ languageCode = 'en-GB'
 title = 'qenya'
 
 [params]
-description = ''
+description = "A work in progress. Don't @ me please"
 
 [[menus.main]]
 name = 'Home'
