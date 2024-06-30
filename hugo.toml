@@ -2,6 +2,9 @@ baseURL = 'https://qenya.tel/'
 languageCode = 'en-GB'
 title = 'qenya'
 
+[params]
+description = ''
+
 [[menus.main]]
 name = 'Home'
 pageRef = '/'

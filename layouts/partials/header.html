@@ -1,2 +1,3 @@
 <h1>{{ site.Title }}</h1>
+{{ with site.Params.description }}<p>{{ . }}</p>{{end}}
 {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
