@@ -1,9 +1,0 @@
-{{ define "main" }}
-  {{ .Content }}
-  {{ range site.RegularPages }}
-  <article class="layout-post">
-    <h1 class="layout-post-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  </article>
-  {{ end }}
-{{ end }}

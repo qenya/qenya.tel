@@ -1,2 +1,0 @@
-# qenya.tel
-
